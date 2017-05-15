@@ -1,0 +1,23 @@
+.Content {
+  height: 50%;
+  background-color: black;
+  border: 1px solid white;
+  display: flex;
+}
+
+.contentContent {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.investmentImage {
+  background-image: url(http://www.lagunabeachrealestate.com/images/ocean_way_laguna_beach_664.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.investingImage {
+  background-image: url(http://www.lagunabeachrealestate.com/images/ocean_way_laguna_beach_664.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

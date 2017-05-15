@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.intro {
+  align-items: center;
+  background-image: url(http://res.cloudinary.com/ducookamn/image/upload/e_brightness:-66/v1493590893/Arizona_Luxury_Homes-0_myeiy7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80%;
+  color: white;
+}
+
+.AppIntro {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Info {
+    font-size: 30px;
+  }
+
+  .subText {
+    font-size: 25px;
+  }
+}

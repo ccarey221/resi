@@ -1,0 +1,32 @@
+.Investments {
+  background-color: black;
+  color: white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tiles {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+.InvestmentTiles {
+  margin: 10px 20px;
+  height: 300px;
+  width: 45%;
+  background-image: url(http://www.lagunabeachrealestate.com/images/ocean_way_laguna_beach_664.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+  .InvestmentTiles {
+    margin: 2px;
+    width: 100%;
+  }
+}
